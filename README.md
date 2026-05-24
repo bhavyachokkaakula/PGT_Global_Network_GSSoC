@@ -36,14 +36,14 @@ Navigate into the project folder and install the required modules:
    COMMAND-2:
    npm install
 
-4. Environment Variables Configuration
+3. Environment Variables Configuration
 Create a .env file in the root directory of the project and configure your Supabase backend keys as shown below:
 
    KEYS TO ADD:
  VITE_SUPABASE_URL=your_supabase_url_here
  VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
 
-5. Run the Development Server
+4. Run the Development Server
 Fire up the local build server using Vite:
 
    COMMAND:
