@@ -1,31 +1,50 @@
-# 🌐 PGT Global Network
+# PGT Global Network 🚀
 
-Welcome to **PGT Global Network**, a production-grade full-stack platform designed specifically for GSSoC contributors under the PGT Global Network umbrella. Our mission is to provide an inclusive, robust, and beginner-friendly ecosystem for open-source development.
-
----
-
-## 🎨 Project Overview
-
-Improving documentation and visual clarity helps new contributors onboard and start shipping code faster. This repository houses the core framework for our global networking platform.
-
-### ✨ Key Features
-* ⚡ **Production-Grade Architecture:** Built using scalable, modern full-stack tools.
-* 📦 **Supabase Backend:** Secure data handling and instantaneous state management.
-* 🛠️ **Tailwind CSS & TypeScript:** Clean, type-safe code paired with beautiful utility-first styling.
-* 🚀 **Vercel Deployment:** Pre-configured for seamless global deployments.
+Welcome to the official repository for **PGT Global Network**, participating in **GSSoC 2026**! This platform is designed to connect, collaborate, and scale global developer networks through modern web tools.
 
 ---
 
-## 🚀 Contributor Quick Start
+## 📌 Project Overview
+PGT Global Network provides a decentralized architecture for developers to manage global integrations, handle secure API pipelines, and track system milestones in a unified dashboard environment.
 
-Getting the project up and running on your local machine is incredibly easy. Just follow these steps:
+---
 
-### 📋 Prerequisites
-Before starting, ensure you have [Node.js](https://nodejs.org/) installed on your system.
+## 🛠️ Core Tech Stack & Prerequisites
+This project is built using a highly efficient modern development stack. Before setting up, ensure you have the following installed:
+* **Node.js** (v16 or higher)
+* **npm** or **yarn** package manager
+* **Git** installed on your local machine
 
-### 🛠️ Installation Steps
+---
 
-1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/bhavyachokkaakula/PGT_Global_Network_GSSoC.git](https://github.com/bhavyachokkaakula/PGT_Global_Network_GSSoC.git)
+## 🚀 Quick Start & Installation Guidance
+
+Follow these step-by-step instructions to get your local development server running smoothly:
+
+1. Clone the Repository
+Open your terminal and run the following command:
+
+   COMMAND: 
+   git clone https://github.com/pranav-gujar/PGT_Global_Network_GSSoC.git
+
+2. Install Local Dependencies
+Navigate into the project folder and install the required modules:
+
+   COMMAND-1:
    cd PGT_Global_Network_GSSoC
+
+   COMMAND-2:
+   npm install
+
+4. Environment Variables Configuration
+Create a .env file in the root directory of the project and configure your Supabase backend keys as shown below:
+
+   KEYS TO ADD:
+ VITE_SUPABASE_URL=your_supabase_url_here
+ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+
+5. Run the Development Server
+Fire up the local build server using Vite:
+
+   COMMAND:
+   npm run dev
